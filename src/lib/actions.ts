@@ -20,4 +20,31 @@ export async function createItem(prevState: State, formData: FormData): Promise<
     const validatedFields = formSchema.safeParse({
         name: formData.get('name'),
         description: formData.get('description'),
-        location: formData.g
+        location: formData.get('location'),
+        contact: formData.get('contact'),
+        imageUrl: formData.get('imageUrl'),
+    });
+
+    if (!validatedFields.success) {
+        const firstError = Object.values(validatedFields.error.flatten().fieldErrors)[0]?.[0];
+        return {
+            message: firstError || 'Invalid data. Please check the form.',
+            success: false,
+        };
+    }
+
+    // Here you would typically save the data to a database.
+    // For now, we'll just log it to the console.
+    console.log('New item submitted:', validatedFields.data);
+
+    // In a real app, you would add the new item to your data source.
+    // e.g., await db.insert(validatedFields.data);
+    // Then revalidate the path to show the new item.
+    revalidatePath('/');
+    revalidatePath('/search');
+
+    return {
+        message: `Successfully submitted "${validatedFields.data.name}". Thank you!`,
+        success: true,
+    };
+}

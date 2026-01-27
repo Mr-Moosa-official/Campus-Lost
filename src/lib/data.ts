@@ -1,4 +1,5 @@
 import type { FoundItem } from '@/lib/definitions';
+import { PlaceHolderImages } from './placeholder-images';
 
 export const dummyFoundItems: FoundItem[] = [
   {
@@ -7,7 +8,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'A blue Jansport backpack, feels like it has a laptop inside. Found near the main library entrance.',
     location: 'Library',
     dateFound: '2024-07-20',
-    imageUrl: 'https://picsum.photos/seed/backpack1/600/400',
+    imageUrl: PlaceHolderImages[0].imageUrl,
     imageHint: 'blue backpack',
     contact: 'j.doe@university.edu',
   },
@@ -17,7 +18,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'Black iPhone 13 with a small crack on the top left of the screen. The case is clear with some stickers on it.',
     location: 'Student Union Cafeteria',
     dateFound: '2024-07-19',
-    imageUrl: 'https://picsum.photos/seed/phone1/600/400',
+    imageUrl: PlaceHolderImages[1].imageUrl,
     imageHint: 'smartphone screen',
     contact: 'lostandfound@university.edu',
   },
@@ -27,7 +28,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'A set of keys with a red university lanyard. Includes a Honda car key and two smaller keys.',
     location: 'Parking Lot C',
     dateFound: '2024-07-21',
-    imageUrl: 'https://picsum.photos/seed/keys1/600/400',
+    imageUrl: PlaceHolderImages[2].imageUrl,
     imageHint: 'set keys',
     contact: 'security@university.edu',
   },
@@ -37,7 +38,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'A brown, worn leather wallet. No ID inside but contains some cash and credit cards. Found on a bench.',
     location: 'Central Quad',
     dateFound: '2024-07-18',
-    imageUrl: 'https://picsum.photos/seed/wallet1/600/400',
+    imageUrl: PlaceHolderImages[3].imageUrl,
     imageHint: 'leather wallet',
     contact: 'lostandfound@university.edu',
   },
@@ -47,7 +48,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'A large stainless steel Hydro Flask-style water bottle covered in various national park stickers.',
     location: 'Gymnasium',
     dateFound: '2024-07-21',
-    imageUrl: 'https://picsum.photos/seed/bottle1/600/400',
+    imageUrl: PlaceHolderImages[4].imageUrl,
     imageHint: 'water bottle',
     contact: 'gymdesk@university.edu',
   },
@@ -57,7 +58,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'A silver MacBook Air left in a black zip-up case. A charger was also in the case.',
     location: 'Computer Science Building, Room 101',
     dateFound: '2024-07-17',
-    imageUrl: 'https://picsum.photos/seed/laptop1/600/400',
+    imageUrl: PlaceHolderImages[5].imageUrl,
     imageHint: 'silver laptop',
     contact: 'csdept@university.edu',
   },
@@ -67,7 +68,7 @@ export const dummyFoundItems: FoundItem[] = [
     description: 'A standard black Moleskine notebook. The first page has the name "Alex" written on it. Seems to contain class notes.',
     location: 'Lecture Hall B',
     dateFound: '2024-07-20',
-    imageUrl: 'https://picsum.photos/seed/notebook1/600/400',
+    imageUrl: PlaceHolderImages[6].imageUrl,
     imageHint: 'black notebook',
     contact: 'lostandfound@university.edu',
   },
