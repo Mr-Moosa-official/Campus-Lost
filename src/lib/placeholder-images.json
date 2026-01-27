@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "backpack-1",
+      "description": "A blue backpack found near the library",
+      "imageUrl": "https://images.unsplash.com/photo-1728034261590-f18afc37bc75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxibHVlJTIwYmFja3BhY2t8ZW58MHx8fHwxNzY5NTIxODIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue backpack"
+    },
+    {
+      "id": "phone-1",
+      "description": "An iPhone with a cracked screen",
+      "imageUrl": "https://images.unsplash.com/photo-1522125670776-3c7abb882bc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbWFydHBob25lfGVufDB8fHx8MTc2OTUyMTgyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartphone"
+    },
+    {
+      "id": "keys-1",
+      "description": "A set of keys on a red lanyard",
+      "imageUrl": "https://images.unsplash.com/photo-1644183712398-186e4d080342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZXQlMjBrZXlzfGVufDB8fHx8MTc2OTUyMTgyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "set keys"
+    },
+    {
+      "id": "wallet-1",
+      "description": "A brown leather wallet",
+      "imageUrl": "https://images.unsplash.com/photo-1601592996763-f05c9c80a7f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwd2FsbGV0fGVufDB8fHx8MTc2OTQzNzk0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather wallet"
+    },
+    {
+      "id": "bottle-1",
+      "description": "A stainless steel water bottle with stickers",
+      "imageUrl": "https://images.unsplash.com/photo-1586277419671-f34cf56500a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMjBib3R0bGV8ZW58MHx8fHwxNzY5NDIzNjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water bottle"
+    },
+    {
+      "id": "laptop-1",
+      "description": "A silver laptop in a black case",
+      "imageUrl": "https://images.unsplash.com/photo-1727132526959-c13b1f65c597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaWx2ZXIlMjBsYXB0b3B8ZW58MHx8fHwxNzY5NTIxODIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver laptop"
+    },
+    {
+      "id": "notebook-1",
+      "description": "A black Moleskine notebook",
+      "imageUrl": "https://images.unsplash.com/photo-1655720348593-8ff1d2086dc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMG5vdGVib29rfGVufDB8fHx8MTc2OTUyMTgyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black notebook"
+    }
+  ]
 }
