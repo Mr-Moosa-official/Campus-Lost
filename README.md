@@ -7,7 +7,7 @@ By combining intelligent matching, notifications, and an admin management system
 
 Campus Lost enables users to:
 
-Submit details of found items
+Submit details  of found items
 
 Search for lost items using multiple filters
 
